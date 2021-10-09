@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Microsoft\Extensions\DependencyInjection\" />
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\Berry.MongoDB.Abstractions\Berry.MongoDB.Abstractions.csproj" />
+    <ProjectReference Include="..\Berry.MongoDB.Client\Berry.MongoDB.Client.csproj" />
   </ItemGroup>
 
 </Project>

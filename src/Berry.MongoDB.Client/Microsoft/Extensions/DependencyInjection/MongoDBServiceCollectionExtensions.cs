@@ -8,7 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class MongoDBServiceCollectionExtensions
     {
-        public static void AddMongoDbContext(this IServiceCollection services, IConfiguration configuration)
+        public static void AddMongoDbClient(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddOptions<MongoDbOptions>().Configure(options =>
             {
